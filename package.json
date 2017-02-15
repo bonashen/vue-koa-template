@@ -1,8 +1,23 @@
 {
   "name": "vue-koa-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Vue.js and koa project template",
-  "author": "tony_shen <bonashen@163.com>",  
+  "keywords": [
+    "koa",
+    "vue",
+    "template"
+  ],
+  "description": "A VUE and Koa project template",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bonashen/vue-koa-template.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bonashen/vue-koa-template/issues"
+  },
+  "homepage": "https://github.com/bonashen/vue-koa-template#readme",
+  "author": "tony_shen <bonashen@163.com>",
   "scripts": {
     "dev": "cross-env DEBUG=koa*,app:* nodemon build/dev-server.js",
     "build": "node build/build.js",
